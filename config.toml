@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "/"
+baseURL = "www.jacovangelder.nl"
 languageCode = "en"
 title = "C.V. / Resume Jaco van Gelder"
 theme = "devresume"
