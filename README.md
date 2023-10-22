@@ -1,1 +1,1 @@
-This is my freelancing resume built on [gohugo.io](www.gohugo.io). 
+This is my freelancing resume built on [gohugo.io](https://www.gohugo.io). 
