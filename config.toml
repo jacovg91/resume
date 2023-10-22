@@ -360,5 +360,5 @@ enableEmoji = true
 
 
 
-    [params.footer]
-        copyright = "Jaco van Gelder"
+    # [params.footer]
+    #     copyright = "Jaco van Gelder"
