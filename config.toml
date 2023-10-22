@@ -116,17 +116,52 @@ enableEmoji = true
 
 
 
-    [params.awards]
-        enable = false
+    [params.certifications]
+        enable = true
 
-        [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
+        [[params.certifications.list]]
+        name = "Data Engineer Associate"
+        body = "Databricks"
+        [[params.certifications.list]]
+        name = "Lakehouse Fundamentals"
+        body = "Databricks"
+        [[params.certifications.list]]
+        name = "Azure Architect Technologies"
+        body = "Microsoft"
+        code = "AZ-300"
+        [[params.certifications.list]]
+        name = "Azure Architect Design"
+        body = "Microsoft"
+        code = "AZ-301"
+        [[params.certifications.list]]
+        name = "Azure Data Solution"
+        body = "Microsoft"
+        code = "DP-200"
+        [[params.certifications.list]]
+        name = "Azure Data Design"
+        body = "Microsoft"
+        code = "DP-201"
+        [[params.certifications.list]]
+        name = "Azure Administrator"
+        body = "Microsoft"
+        code = "AZ-104"
+        [[params.certifications.list]]
+        name = "Designing & Implementing DevOps Solutions"
+        body = "Microsoft"
+        code = "AZ-400"
+        [[params.certifications.list]]
+        name = "Querying Data with Transact-SQL"
+        body = "Microsoft"
+        code = "70-761"
+        [[params.certifications.list]]
+        name = "Certified Trainer 2021-2022 (MCT)"
+        body = "Microsoft"
+        [[params.certifications.list]]
+        name = "Snowpro Core"
+        body = "SnowFlake"
+        [[params.certifications.list]]
+        name = "Professional Scrum Master I"
+        body = "scrum.org"
 
 
 
