@@ -1,0 +1,364 @@
+# Page settings
+
+baseURL = "https://www.jacovangelder.nl/"
+languageCode = "en"
+title = "C.V. / Resume Jaco van Gelder"
+theme = "devresume"
+enableEmoji = true
+
+
+
+[params]
+    author = "Jaco van Gelder"
+    description = "Freelance Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+    [params.profile]
+        enable = true
+        name = "Jaco van Gelder"
+        tagline = "Azure Cloud Solution Architect & Lead Data Engineer" 
+        avatar = "jaco.png"
+
+
+
+    [params.contact]
+        enable = true
+        location = "Breda, Noord-Brabant, NL" 
+
+        
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+31648228243"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "jaco@innovion.nl"
+        
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Tooling"
+        [[params.skills.list.items]]
+        details = "Azure Databricks"
+        [[params.skills.list.items]]
+        details = "Databricks Unity Catalog"
+        [[params.skills.list.items]]
+        details = "Azure Synapse Analytics"
+        [[params.skills.list.items]]
+        details = "Azure Data Factory"
+        [[params.skills.list.items]]
+        details = "Azure Data Lake Storage"
+        [[params.skills.list.items]]
+        details = "Azure SQL Server & Database"
+        [[params.skills.list.items]]
+        details = "Azure DevOps & CI/CD"
+        [[params.skills.list.items]]
+        details = "Azure Container Instances"
+        [[params.skills.list.items]]
+        details = "Azure Purview"
+        [[params.skills.list.items]]
+        details = "Power BI"
+        [[params.skills.list.items]]
+        details = "Docker"
+        [[params.skills.list.items]]
+        details = "VaultSpeed (Data Vault)"
+        [[params.skills.list.items]]
+        details = "SSIS/SSRS/SSAS"
+
+
+        [[params.skills.list]]
+        title = "Developing"
+        [[params.skills.list.items]]
+        details = "Python / PySpark"
+        [[params.skills.list.items]]
+        details = "SQL (T-SQL, Spark/Databricks SQL)"
+        [[params.skills.list.items]]
+        details = "PowerShell"
+        [[params.skills.list.items]]
+        details = "Bash"
+        [[params.skills.list.items]]
+        details = "Azure CLI"
+        [[params.skills.list.items]]
+        details = "Terraform"
+        [[params.skills.list.items]]
+        details = "Azure Resource Manager (ARM)"
+        [[params.skills.list.items]]
+        details = "Azure Bicep"
+        [[params.skills.list.items]]
+        details = "XML / JSON / YAML"
+        [[params.skills.list.items]]
+        details = "GIT"
+        [[params.skills.list.items]]
+        details = "Kimball, Inmon, xNF, Data Vault"
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Business IT & Management (Business Informatics)"
+        university = "The Hague University of Applied Sciences"
+        dates = "2012 - 2016"
+        [[params.education.list]]
+        degree = "System and Network Administrator"
+        university = "Albeda College Roterdam"
+        dates = "2008 - 2012"
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Dutch"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Weightlifting"
+        [[params.interests.list]]
+        name = "Mountain hikes"
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Droning"
+        
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Jaco is a seasoned, results-driven and passionate data lead with a proven track record in both architecting and engineering cloud data platforms. Jaco has consistently demonstrated his ability to lead and steer teams towards the achievement of their goals, while rolling up his sleeves and bringing technical prowess himself too. Jaco's skills and experience have allowed him to deliver many scalable and efficient data solutions that have helped numerous large organizations streamline their data operations and gain a competitive edge. Next to all things tech, Jaco has excellent interpersonal and communication skills leveraged in developing strong stakeholder relationships."
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Tech Lead DataOps & Governance"
+        dates = "07-2023 - present"
+        company = "Van Lanschot Kempen N.V."
+        details = "SME and Tech Lead role within the STRADA (Straight Forward Data Architecture) team, leading a large migration of Databricks to Unity Catalog, enterprise-wide using Terraform. Next to this, I architected data solutions, guided and helped a team of engineers deliver data driven solutions using industry standard best practices. Details:" 
+        [[params.experience.list.items]]
+        details = "Providing data governance for 20.000+ data assets across 60+ databricks workspaces throughout the Van Lanschot Kempen organization."
+        [[params.experience.list.items]]
+        details = "Providing 10+ downstream teams with access to data in well maintained and supported Data & AI environments, containing Databricks, Azure SQL Database, Azure Data Factory, Azure Synapse & Azure Data Lake Storage, including DevOps pipelines and agent pools. These teams range from building traditional BI reporting solutions, to machine learning models, to teams building Large Language Models (LLM's)."
+        [[params.experience.list.items]]
+        details = "Developing data pipelines for the STRADA team themselves, helping the team with onboarding new data sources in many different structures."
+        [[params.experience.list.items]]
+        details = "Keeping track of and enabling the data teams within the enterprise with new features, such as Unity Catalog, Lakehouse AI and Databricks Serverless SQL."
+        [[params.experience.list.items]]
+        details = "In this role I also actively contributed to the open source community of the [Databricks Terraform provider](https://github.com/databricks/terraform-provider-databricks). As well as monthly/weekly check-ins with representatives and solution architects of Databricks themselves."
+
+        [[params.experience.list]]
+        title = "Lead Data Engineer & Solution Architect"
+        dates = "06-2022 - 07-2023"
+        company = "Van Lanschot Kempen N.V."
+        details = "Within Van Lanschot Kempen I was part of the GPA (Group Performance Analytics) team. The primary objective of the GPA department is to assist teams within the CFO and CRO domains in delivering the singular quantitative truth about financial and credit risks to their stakeholders. In simpler terms: GPA provides the bank's financial truth, both internally and externally. Details:"
+        [[params.experience.list.items]]
+        details = "As a lead, I have counselled a team of 6 junior to senior data engineers, introduced software and data engineering best practices and principles, resulting in improved efficiency and consistency in data pipeline development processes."
+        [[params.experience.list.items]]
+        details = "Successfully guided the migration from Azure Analysis Services to PowerBI Premium, with many business units relying on critical key figures from the bank. This led to an enormous annual cloud cost saving. "
+        [[params.experience.list.items]]
+        details = "Designed and developed a Delta Lake medallion architecture with Azure Databricks, in close collaboration with Databricks themselves."
+        [[params.experience.list.items]]
+        details = "Implemented Azure Synapse Serverless SQL pools to enable the use of existing legacy reporting tools on the Databricks platform."
+        [[params.experience.list.items]]
+        details = "Designed and implemented a completely new DevOps CI/CD release structure, allowing for daily, high-quality automated deployments to production, as opposed to large monolith biweekly deployments."
+        [[params.experience.list.items]]
+        details = "Established a metadata framework, leading to a centralized and consistent approach to data management."
+        [[params.experience.list.items]]
+        details = "Fully automated PowerBI CI/CD (Row Level Security, dataset permissions, dataset deployments & refreshes)."
+        [[params.experience.list.items]]
+        details = "Set up a data quality framework with [Great Expectations](https://github.com/great-expectations/great_expectations), ensuring that only high-quality data is delivered to stakeholders."
+
+    
+        [[params.experience.list]]
+        title = "Azure Cloud Architect"
+        dates = "01-2022 - 07-2022"
+        company = "APG Asset Management"
+        details = "I was part of the Asset Management's Cloud Competence Center. Together with a team of cloud architects from multiple APG businessunits, setting up a Cloud Center of Excellence using Microsofts Cloud Adoption Framework (CAF). Details:"
+        [[params.experience.list.items]]
+        details = "Setting up Management Group hierarchy & Networking model (Hub-Spoke)."
+        [[params.experience.list.items]]
+        details = "Setting up RBAC model with PIM + IAM."
+        [[params.experience.list.items]]
+        details = "Setting up (Subscription) landing zone deployments."
+        [[params.experience.list.items]]
+        details = "Setting up DevOps (service connections, CI/CD, approvals & gates, agents, Infrastructure as Code)."
+        [[params.experience.list.items]]
+        details = "Setting up Resource organization (naming conventions, tagging)."
+        [[params.experience.list.items]]
+        details = "Managing compliancy design areas (governance, platform automation, logging & alerting)."
+        [[params.experience.list.items]]
+        details = "Architecting a Data Acces Layer Data (DAL) platform for generic data access in APG."
+        [[params.experience.list.items]]
+        details = "Coaching colleagues with Azure Data & AI knowledge."
+
+        [[params.experience.list]]
+        title = "Lead Azure Data Engineer" 
+        dates = "01-2020 - 12-2021"
+        company = "BIGorillas"
+        details = "Employed as a Lead Data Engineer, specializing in designing and engineering cloud data solutions on Microsoft Azure. Next to this I was responsible for managing the Microsoft Gold Partner Program. Consultancy assignment(s):"
+        [[params.experience.list.items]]
+        details = "Nationale-Nederlanden / NN Group."  
+
+        [[params.experience.list]]
+        title = "Azure Solution Architect / Data Engineer" 
+        dates = "01-2020 - 12-2021"
+        company = "Nationale-Nederlanden"
+        details = "Consulting role for BIGorillas. At NN Group I was tasked with designing and building a new Azure Data Platform for NN Group's businessunit Claims & Income (Schade & Inkomen). This was a greenfield project to migrate the on-premise Oracle data warehouse, used by 200+ users, containing more than 3000 tables. Details:" 
+        [[params.experience.list.items]]
+        details = "Responsible for both design and realization of the Azure building blocks setup using Terraform."
+        [[params.experience.list.items]]
+        details = "Building data extraction pipelines in Azure Data Factory and Delta Lake ingestion pipelines in Azure Databricks."
+        [[params.experience.list.items]]
+        details = "Together with my team, modelling a Data Vault (using Vaultspeed) for datawarehousing purposes using Azure Synapse Analytics Dedicated Pools. The solution ended up as a hybrid between a lakehouse and datawarehouse architecture, to support both traditional data warehousing, aswell as advanced analytics like machine learning."
+        [[params.experience.list.items]]
+        details = "I've played an important role in estabalishing robustness and security of the platform with things like: infrastructure as code, continuous integration & continuous delivery, GIT integration, networking, lineage and compliance."
+
+
+        [[params.experience.list]]
+        title = "Azure Solution Architect / Data Engineer / BI Consultant" 
+        dates = "09-2016 - 02-2020"
+        company = "ALTEN Netherlands"
+        details = "Employed as a Business Intelligence consultant, specializing in designing and engineering cloud data solutions on Microsoft Azure. Consultancy assignments:"
+        [[params.experience.list.items]]
+        details = "GS1 Nederland." 
+        [[params.experience.list.items]]
+        details = " Delta Netwerkgroep (DNWG)."
+        [[params.experience.list.items]]
+        details = "Agro Energy."
+        [[params.experience.list.items]]
+        details = "Provincie Noord-Brabant."
+        [[params.experience.list.items]]
+        details = "Short BI Service Center assignments: Vesting Finance, Renewi, Achmea IM, PHENC, Shimano. My tasks for these companies were mainly picking up small RFC's and fixing errors in nightly DWH batch loads."
+
+        [[params.experience.list]]
+        title = "Azure Solution Architect / Data Engineer" 
+        dates = "10-2018 - 01-2020"
+        company = "Provincie Noord-Brabant"
+        details = "Consulting role for ALTEN Netherlands. Working on a large government wide mobility project to improve road- and traffic safety within the Province of North-Brabant by providing key insights through data. Details: "
+        [[params.experience.list.items]]
+        details = "Responsible for designing and implementing architectural principles for an Azure cloud data platform."
+        [[params.experience.list.items]]
+        details = "Building data ingestion and transformation pipelines through tools such as Azure Data Factory, Azure Data Lake and Azure SQL Database."
+        [[params.experience.list.items]]
+        details = "I took an active role in writing PSA proposal documents to better integrate and map the Azure data platform within the company's standards."
+        [[params.experience.list.items]]
+        details = "Very familiar with matching cloud data security principles with government standards such as the BIO (baseline informatievoorziening overheid)."
+
+
+        [[params.experience.list]]
+        title = "Azure Data Engineer"
+        dates = "05-2017 - 07-2018" 
+        company = "Agro Energy"
+        details = "Consulting role for ALTEN Netherlands. At Agro Energy I've had an Azure QA / support role to help the on-site development team during the first few monthsof setting up their Azure data platform. The main aim of the project was for energy buyers of Agro Energy to always have the right energy purchase deal. Timeliness of data was extremely important. The technology stack used/implemented was: Azure Data Factory, Azure Data Lake (Gen1) with Azure Data Lake Analytics and Azure SQL Database."
+
+
+        [[params.experience.list]]
+        title = "Business Intelligence Specialist"
+        dates = "02-2017 - 10-2018"
+        company = "Delta Netwerkgroep (DNWG)"
+        details = "Consulting role for ALTEN Netherlands. Responsible for extracting sources using SQL Server Integration Services (SSIS), SQL Server 2017 (with JSON TSQL) and No-SQL CouchDB. I've also built reports using SQL Server Reporting Services"
+
+        [[params.experience.list]]
+        title = "Azure Data Engineer" 
+        dates = "09-2016 - 03-2018"
+        company = "GS1 Nederland"
+        details = "Consulting role for ALTEN Netherlands. Responsible for the further developmentof the Azure SQL Data Warehouse. The businessgoal of the assignment was to ensure suppliers and customers of GS1 have the best possible data quality for products in their logistics chain. On this project I've mainly worked with Azure Data Factory (with SSIS runtime), SQL Server Integration Services, Azure SQL Server and Azure SQL Data warehouse. I've also written a lot of very complex T-SQL Stored Procedures." 
+
+        [[params.experience.list]]
+        title = "Business Intelligence Specialist"
+        dates = "01-2016 - 09-2016"
+        company = "Accenture The Netherlands" 
+        details = "5 months of graduation internship, 3 months of working together with utilities customers building a list of Top X business reports for all of Accentures utilities' customers"
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+       
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        # [[params.information.list]]
+        # title = "Interests"
+        # details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/jacovg91"
+        title = "jacovg91"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/jwvangelder"
+        title = "jwvangelder"
+
+
+
+    [params.footer]
+        copyright = "Jaco van Gelder"
