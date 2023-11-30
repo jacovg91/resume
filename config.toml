@@ -120,6 +120,9 @@ enableEmoji = true
         enable = true
 
         [[params.certifications.list]]
+        name = "Data Engineer Professional"
+        body = "Databricks"
+        [[params.certifications.list]]
         name = "Data Engineer Associate"
         body = "Databricks"
         [[params.certifications.list]]
