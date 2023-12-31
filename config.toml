@@ -207,6 +207,14 @@ enableEmoji = true
         enable = true
 
         [[params.experience.list]]
+        title = "Tech Lead"
+        dates = "01-2024 - present"
+        company = "IKEA"
+        details = "Tech Lead role within the MLDP (My Learning Data Platform) team within IKEA's Digital Capabilities area. Details:" 
+        [[params.experience.list.items]]
+        details = "Details will be added soon." 
+
+        [[params.experience.list]]
         title = "Tech Lead DataOps & Governance"
         dates = "07-2023 - present"
         company = "Van Lanschot Kempen N.V."
