@@ -216,7 +216,7 @@ enableEmoji = true
 
         [[params.experience.list]]
         title = "Tech Lead DataOps & Governance"
-        dates = "07-2023 - present"
+        dates = "07-2023 - 12-2023"
         company = "Van Lanschot Kempen N.V."
         details = "SME and Tech Lead role within the STRADA (Straight Forward Data Architecture) team, leading a large migration of Databricks to Unity Catalog, enterprise-wide using Terraform. Next to this, I architected data solutions, guided and helped a team of engineers deliver data driven solutions using industry standard best practices. Details:" 
         [[params.experience.list.items]]
